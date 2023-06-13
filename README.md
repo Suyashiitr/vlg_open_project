@@ -50,6 +50,6 @@ A few results after tuning hyperparameters are again given in last cell of VLG P
 
 Losses with each epoch are plotted in python notebook files for both models.
 
-Observation : Vision Transformer took more time to train for the same number of epochs and same batch size compared to CNN model but gave lesser loss and therefore higher accuracy on validation dataset. The difference between accuracies by both the model is of 10% (best results compared).
+Observation : Vision Transformer took more time to train for the same number of epochs and same batch size compared to CNN model but gave lesser loss and therefore higher accuracy on validation dataset. The difference between accuracies by both the model is of 15% (best results compared).
 
 The best model was the vision transofrmer model mentioned above and is added to the repository as vit_model.pt
