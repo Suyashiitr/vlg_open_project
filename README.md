@@ -45,7 +45,7 @@ VisionTransformer(
   )
   (fc): Linear(in_features=128, out_features=2, bias=True)
 )
-Patch size is 5x5 , batch size = 64 , learning rate 0.0001 , 25 epochs giving a loss of 0.103 and accuracy score 85%
+Patch size is 5x5 , batch size = 64 , learning rate 0.0001 , 25 epochs giving a loss of 0.089 and accuracy score 89.33%
 A few results after tuning hyperparameters are again given in last cell of VLG Project(ViT).ipynb file.
 
 Losses with each epoch are plotted in python notebook files for both models.
