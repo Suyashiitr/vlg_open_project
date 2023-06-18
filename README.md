@@ -51,9 +51,10 @@ A few results after tuning hyperparameters are again given in last cell of VLG P
 
 Losses with each epoch are plotted in python notebook files for both models.
 
-loss vs epoch plot of best result is given below
+loss vs epoch plot of lowest loss model is given below :
 
 <img width="549" alt="Screenshot 2023-06-19 at 2 51 13 AM" src="https://github.com/Suyashiitr/vlg_open_project/assets/114506717/90f8ae8c-6adc-4eec-b585-5aedc756827c">
+
 
 
 Observation : Vision Transformer took more time to train for the same number of epochs and same batch size compared to CNN model but gave lesser loss and therefore higher accuracy on validation dataset. The difference between accuracies by both the model is of 15% (best results compared).
