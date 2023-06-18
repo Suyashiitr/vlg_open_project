@@ -45,11 +45,18 @@ VisionTransformer(
   )
   (fc): Linear(in_features=128, out_features=2, bias=True)
 )
+
 Patch size is 5x5 , batch size = 64 , learning rate 0.0001 , 25 epochs giving a loss of 0.089 and accuracy score 89.33%
 A few results after tuning hyperparameters are again given in last cell of VLG Project(ViT).ipynb file.
 
 Losses with each epoch are plotted in python notebook files for both models.
 
+loss vs epoch plot of best result is given below
+
+<img width="549" alt="Screenshot 2023-06-19 at 2 51 13 AM" src="https://github.com/Suyashiitr/vlg_open_project/assets/114506717/90f8ae8c-6adc-4eec-b585-5aedc756827c">
+
+
 Observation : Vision Transformer took more time to train for the same number of epochs and same batch size compared to CNN model but gave lesser loss and therefore higher accuracy on validation dataset. The difference between accuracies by both the model is of 15% (best results compared).
+Changing the patch size in Vision Transformer had a significant impact. Lower patch size resulted in slower training while increasing the patch size resulted in faster training and lower loss ( however, the accuracy and f1_score on validation dataset wasn't higher than patch_size = 5 case)
 
 The best model was the vision transofrmer model mentioned above and is added to the repository as vit_model.pt
