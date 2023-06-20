@@ -61,5 +61,10 @@ loss vs epoch plot of lowest loss model is given below :
 
 Observation : Vision Transformer took more time to train for the same number of epochs and same batch size compared to CNN model but gave lesser loss and therefore higher accuracy on validation dataset. The difference between accuracies by both the model is of 15% (best results compared).
 Changing the patch size in Vision Transformer had a significant impact. Lower patch size resulted in slower training while increasing the patch size resulted in faster training and lower loss ( however, the accuracy and f1_score on validation dataset wasn't higher than patch_size = 5 case)
+ML algorithms using Sci-kit learn were implemented. These were support vector machines( svm) , XG Booster (XGB) and K Nearest Neighbors (KNN). Their performance is :
 
-The best model was the vision transofrmer model mentioned above and is added to the repository as vit_model.pt
+<img width="492" alt="Screenshot 2023-06-20 at 10 18 50 PM" src="https://github.com/Suyashiitr/vlg_open_project/assets/114506717/6f63230d-eb10-4448-9805-1ee51f8150ad">
+
+
+
+The best model was the K Nearest Neighbors algorithm when it comes to the F1 Score (71) while highest accuracy score on validation dataset was given by VIT model(89%)
