@@ -67,4 +67,4 @@ ML algorithms using Sci-kit learn were implemented. These were support vector ma
 <img width="493" alt="Screenshot 2023-06-21 at 12 19 38 PM" src="https://github.com/Suyashiitr/vlg_open_project/assets/114506717/584f049c-285d-4fd2-bdb2-19b21f5a19f6">
 
 
-The best model was the K Nearest Neighbors algorithm when it comes to the F1 Score (71) while highest accuracy score on validation dataset was given by VIT model(89%)
+The best model was the K Nearest Neighbors algorithm when it comes to the F1 Score (71) while highest accuracy score on validation dataset was given by VIT model(89%). The highest bitgrit score is 92.7%
