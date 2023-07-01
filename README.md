@@ -49,7 +49,9 @@ VisionTransformer(
 Patch size is 5x5 , batch size = 64 , learning rate 0.0001 , 25 epochs giving a loss of 0.089 and accuracy score 89.33%
 A few results after tuning hyperparameters are again given in last cell of VLG Project(ViT).ipynb file.
 
-Patch size of 10x10 resulted in faster training and lowest loss (0.014) but the accuracy score on validation set was 84%.
+Patch size of 10x10 resulted in faster training but the accuracy score on validation set was 84%.
+
+256 embedding dimensions and patch size 5x5 resulted in lowest loss (0.005) and accuracy score was 88% on validation set while f1 score was 71%.
 
 Losses with each epoch are plotted in python notebook files for both models.
 
